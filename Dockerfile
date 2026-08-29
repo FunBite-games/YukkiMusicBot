@@ -7,4 +7,4 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 EXPOSE 8080
-CMD bash start
+CMD python3 -m http.server 8080 & bash start
