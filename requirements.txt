@@ -8,7 +8,7 @@ hachoir
 heroku3
 lyricsgenius
 motor
-pymongo==3.12.3
+pymongo
 pillow==9.5.0
 psutil
 py-tgcalls
